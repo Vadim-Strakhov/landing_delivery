@@ -1,0 +1,134 @@
+.header {
+    padding: 23px 0 82px;
+    background: url('../img/layers.png') (center center/cover) no-repeat, rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+.logo {
+    width: 96px;
+    height: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    &_item {
+        font-size: 15px;
+        padding: 0 12.5px;
+        font-weight: 400;
+        border-right: 1px dotted rgba(255, 255, 255, 0.4);
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &_link {
+        text-decoration: none;
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+            color: #ec644b;
+        }
+    }
+}
+
+.contacts {
+    line-height: 20px;
+    &_questions {
+        text-align: right;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &_tl {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.utp {
+    &_header {
+        text-align: center;
+        margin-top: 9px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &_subheader {
+        text-align: center;
+        margin: 26px 0 0 0;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+    }
+    &_descr {
+        text-align: center;
+        margin: 9px 0 0 0;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &_line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 84%;
+        margin: 38px auto 0px;
+        &_first-with-circle {
+            height: 1.5px; 
+            width: 48%;
+            background-color: white;
+        }
+        &_second-with-circle {
+            height: 1.5px; 
+            width: 48%;
+            background-color: white;
+        }
+        &_ball {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    }
+}
+
+.services {
+    &_wrapper {
+        margin-top: 27px;
+        display: flex;
+    }
+    &_block {
+        flex-basis: 25%;
+    }
+    &_icons {
+        height: 63px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &_descr {
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

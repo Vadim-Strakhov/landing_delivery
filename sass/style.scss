@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    &_reviews {
+        max-width: 1410px;
+        margin: 0 auto;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/our_work';
+@import 'blocks/nuances';
+@import 'blocks/cargo';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';

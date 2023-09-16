@@ -1,0 +1,41 @@
+.nuances {    
+    // mix-blend-mode: multiply;
+    // background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), 
+    // url(../img/layer_14_368.png);
+    padding: 58px 0 75px;
+    &_img {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+    }
+    &_title {
+        margin: 20px 0 0;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &_subtitle {
+        margin: 22px auto 0px;
+        text-align: center;
+        width: 90%;
+        font-size: 19px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}
+
+.castle {
+    background: url(../img/layers1.png) (center center/cover) no-repeat, rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+.city {
+    background: url(../img/layers2.png) (center center/cover) no-repeat, rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+}

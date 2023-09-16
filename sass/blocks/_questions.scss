@@ -1,0 +1,66 @@
+.questions {
+    background: url(../img/layers4.png) center center/cover no-repeat, rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    padding: 62px 0 79px;
+    &_form {
+        width: 78.6%;
+        margin: 0 auto;
+        &_header {
+            background-color: #25333c;
+            text-align: center;
+            padding: 20px 0 20px;
+        }
+        &_title {
+            font-size: 19px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &_subtitle {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &_subheader {
+            background-color: rgba(255, 255, 255, .7);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &_input {
+            margin-top: 17px;
+            width: 30.133%;
+            margin-right: 4px;
+            &_name {
+                background-color: #ffffff;
+                border: 1px solid rgba(0,0,0,0.2);
+                width: 100%;
+                border-radius: 50px;
+                padding: 12.76px 29px;
+                font-size: 13px;
+                font-weight: 300;
+                color: #101010;
+                
+            }
+        }
+        &_textarea {
+            width: 90.958%;
+            margin-top: 6px;
+            &_text {
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgba(0,0,0,0.2);
+                border-radius: 10px;
+                padding: 19px 26px 6px;
+
+                font-size: 13px;
+                font-weight: 300;
+                color: #616467;
+            }
+        }
+        &_btn {
+            margin: 16px 0 25px;
+        }
+    }
+}
