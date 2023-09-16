@@ -1,0 +1,82 @@
+.footer {
+    padding: 24px 0 28px;
+    background-color: #25333c;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &_img {
+            margin-right: 43px;
+            img {
+                width: 68px;
+                height: auto;
+            }
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0;
+        }
+    }
+    &_callback {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &_btn {
+        margin-left: 19px;
+    }
+    &_line {
+        position: relative;
+        margin: 26px 0 0;
+        height: 1px;
+        &_strip {
+            position: absolute;
+            width: 102.72%;
+            height: 1px;
+            opacity: 0.3;
+            background-color: #ffffff;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+        }
+    }
+    &_links {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 19px;
+
+        
+        a {
+            opacity: 0.6;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 300;
+            color: #ffffff;
+            &:hover {
+                text-decoration: underline;
+                color: #ec644b;
+            }
+        }
+        img {
+            opacity: 0.6;
+        }
+        &_website {
+            margin-right: 223px;
+        }
+        &_policy {
+            margin-right: 456px;
+        }
+        &_creation {
+            a {
+                margin-right: 10px;
+            }
+        }
+    }
+}
