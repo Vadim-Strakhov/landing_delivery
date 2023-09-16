@@ -12,5 +12,10 @@
   "dependencies": {
     "bootstrap": "^5.3.0",
     "normalize.css": "^8.0.1"
+  },
+  "scripts": {
+    "predeploy": "gulp",
+    "deploy": "gh-pages -d src"
   }
+  
 }
